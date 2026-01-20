@@ -55,8 +55,8 @@ Update the dataset path in pcb-mdd-curated.yaml
 Train your model:
 ```
 from ultralytics import YOLO
-model = YOLO('yolov8n.pt')
-model.train(data='pcb-mdd-curated.yaml', epochs=100)
+model = YOLO('yolov11n.pt')
+model.train(data='pcb-mdd-curated.yaml', epochs=200)
 ```
 License
 This dataset is released under the MIT License. See LICENSE file for details.
