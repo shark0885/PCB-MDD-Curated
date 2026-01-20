@@ -1,0 +1,22 @@
+# PCB-MDD-Curated Dataset
+# PCB Manufacturing Defect Detection - Curated Dataset
+
+# Dataset path (relative to this file)
+path: ./PCB-MDD-Curated
+
+# Number of classes
+nc: 6
+
+# Class names
+names: 
+  0: Missing Hole
+  1: Depaneling Damage
+  2: Open Circuit
+  3: Short
+  4: Spur
+  5: Spurious Copper
+
+# Train/Val/Test paths
+train: train/images
+val: val/images
+test: test/images
